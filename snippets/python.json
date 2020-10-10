@@ -3,7 +3,7 @@
 	    "prefix": "sql",
 	    "body": [
             "\"\"\"",
-            "--sql",
+            "-- sql",
             "${1| ,SELECT,WITH|}",
             ";",
             "\"\"\""
