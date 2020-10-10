@@ -13,7 +13,8 @@ Install `python-string-sql` from extensions (`ctrl + shift + x` or `cmd + shift 
 
 ## Usage
 
-Insert `--sql`, `--beginsql`, or `--begin-sql` at the beginning of the part of the string you would like highlighted and a semicolon, `--endsql`, or `--end-sql` at the end of the highlighted section.
+Insert `-- sql`, `-- beginsql`, or `-- begin-sql` at the beginning of the part of the string you would like highlighted and a semicolon, `-- endsql`, or `-- end-sql` at the end of the highlighted section.
+With MYSQL: the --  (double-dash) comment style requires the second dash to be followed by at least one whitespace or control character (such as a space, tab, newline, and so on)
 
 ### Snippets
 begin typing `sql` and the autocomplete snippet will appear:
@@ -25,7 +26,7 @@ begin typing `sql` and the autocomplete snippet will appear:
 cmd+s (or ctrl+s on mac) - Insert the following snippet:
 ```
 """
---sql
+-- sql
 SELECT
 ;
 """
